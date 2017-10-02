@@ -109,7 +109,6 @@ public class PlacesListActivity extends AppCompatActivity {
         String[] nameArray = getResArrayFromID(city.toLowerCase() + "_places_names");
         String[] subtitleArray = getResArrayFromID(city.toLowerCase() + "_places_subtitle");
         String[] descArray = getResArrayFromID(city.toLowerCase() + "_places_desc");
-        String[] coordinatesArray = getResArrayFromID(city.toLowerCase() + "_places_coordinates");
 
         for (int i = 0; i < 4; i++) {
             int imageID = getResources().getIdentifier(city + "_" + (i + 1), "drawable", getPackageName());
